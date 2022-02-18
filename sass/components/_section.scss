@@ -3,6 +3,14 @@
   padding-bottom: 94px;
 }
 
+.section--no-padding-top {
+  padding-top: 0;
+}
+
+.section--dark-bgc {
+  background-color: var(--filters-btn-bgc);
+}
+
 .section__title {
   margin-top: 0;
   margin-right: 0;

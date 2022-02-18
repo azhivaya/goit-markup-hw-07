@@ -20,8 +20,8 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <div class="container main-nav">
-        <a href="" class="logo">Web<span class="logo__header">Studio</span></a>
+      <div class="container header__container">
+        <a href="" class="logo">Web<span class="logo--light">Studio</span></a>
         <nav class="site-nav">
           <ul class="site-nav__list">
             <li class="site-nav__item">
@@ -35,7 +35,7 @@
         </nav>
         <ul class="contact-nav">
           <li class="contact-nav__item">
-            <a href="mailto:info@devstudio.com" class="contact-nav__contacts">
+            <a href="mailto:info@devstudio.com" class="contact-nav__link">
               <svg class="contact-nav__icon" width="16" height="12">
                 <use href="./images/icons.svg#envelope">
               </svg>
@@ -43,7 +43,7 @@
             </a>
           </li>
           <li class="contact-nav__item">
-            <a href="tel:+380961111111" class="contact-nav__contacts">
+            <a href="tel:+380961111111" class="contact-nav__link">
               <svg class="contact-nav__icon" width="10" height="16">
                 <use href="./images/icons.svg#smartphone"></use>
               </svg>
@@ -66,10 +66,10 @@
         </div>
       </section>
       <!--Features section-->
-      <section class="features section">
+      <section class="section">
         <div class="container">
           <h2 class="section__title visually-hidden">Наши преимущества</h2>
-          <ul class="features__list">
+          <ul class="features">
             <li class="features__item">
               <div class="features__icon">
               <svg width="70" height="70"><use href="images/icons.svg#antenna-1"></use>
@@ -112,10 +112,10 @@
         </div>
       </section>
       <!--What we do section-->
-      <section class="section work">
+      <section class="section section--no-padding-top">
         <div class="container">
           <h2 class="section__title">Чем мы занимаемся</h2>
-          <ul class="work__list">
+          <ul class="work">
             <li class="work__item">
               <img src="./images/img-what-we-do-1.jpg" alt="написание кода" width="370" />
               <p class="work__text">Десктопные приложения</p>
@@ -132,10 +132,10 @@
         </div>
       </section>
       <!--Our team section-->
-      <section class="section team">
+      <section class="section section--dark-bgc">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
-          <ul class="team__list">
+          <ul class="team">
             <li class="team__item">
               <img
                 src="./images/member-1.jpg"
@@ -143,9 +143,9 @@
                 width="270"
               />
               <div class="team__card">
-                <h3 class="team__name">Игорь Демьяненко</h3>
-                <p class="team__profession" lang="en" >Product Designer</p>
-              <ul class="socials__list">
+                <h3 class="team__title">Игорь Демьяненко</h3>
+                <p class="team__text" lang="en" >Product Designer</p>
+              <ul class="socials">
               <li class="socials__item"><a href="https://www.instagram.com/" class="socials__link socials__link--light" target="_blank" rel="noreferrer noopener"><svg class="socials__icon" width="20" height="20">
                 <use href="./images/icons.svg#instagram-2">
               </svg></a></li>
@@ -168,9 +168,9 @@
                 width="270"
               />
               <div class="team__card">
-                <h3 class="team__name">Ольга Репина</h3>
-                <p class="team__profession" lang="en">Frontend Developer</p>
-                <ul class="socials__list">
+                <h3 class="team__title">Ольга Репина</h3>
+                <p class="team__text" lang="en">Frontend Developer</p>
+                <ul class="socials">
               <li class="socials__item"><a href="https://www.instagram.com/" class="socials__link socials__link--light" target="_blank" rel="noreferrer noopener"><svg class="socials__icon" width="20" height="20">
                 <use href="./images/icons.svg#instagram-2">
               </svg></a></li>
@@ -189,9 +189,9 @@
             <li class="team__item">
               <img src="./images/member-3.jpg" alt="Николай Тарасов маркетинг" width="270" />
               <div class="team__card">
-                <h3 class="team__name">Николай Тарасов</h3>
-                <p class="team__profession" lang="en">Marketing</p>
-                <ul class="socials__list">
+                <h3 class="team__title">Николай Тарасов</h3>
+                <p class="team__text" lang="en">Marketing</p>
+                <ul class="socials">
               <li class="socials__item"><a href="https://www.instagram.com/" class="socials__link socials__link--light" target="_blank" rel="noreferrer noopener"><svg class="socials__icon" width="20" height="20">
                 <use href="./images/icons.svg#instagram-2">
               </svg></a></li>
@@ -210,9 +210,9 @@
             <li class="team__item">
               <img src="./images/member-4.jpg" alt="Михаил Ермаков дизайнер" width="270" />
               <div class="team__card">
-                <h3 class="team__name">Михаил Ермаков</h3>
-                <p class="team__profession" lang="en">UI Designer</p>
-                <ul class="socials__list">
+                <h3 class="team__title">Михаил Ермаков</h3>
+                <p class="team__text" lang="en">UI Designer</p>
+                <ul class="socials">
               <li class="socials__item"><a href="https://www.instagram.com/" class="socials__link socials__link--light" target="_blank" rel="noreferrer noopener"><svg class="socials__icon" width="20" height="20">
                 <use href="./images/icons.svg#instagram-2">
               </svg></a></li>
@@ -231,10 +231,10 @@
           </ul>
         </div>
       </section>
-      <section class="section clients">
+      <section class="section">
         <div class="container">
           <h2 class="section__title">Постоянные клиенты</h2>
-          <ul class="clients__list">
+          <ul class="clients">
             <li class="clients__item">
               <a class="clients__link" href=""><svg class="clients__logo" width="106" height="60"><use href="./images/icons.svg#logo-1"></use></svg></a>
             </li>
@@ -261,7 +261,7 @@
     <footer class="footer">
       <div class="container footer-global">
         <div class="footer__sections">
-        <a class="logo" href="">Web<span class="logo__footer">Studio</span></a>
+        <a class="logo" href="">Web<span class="logo--dark">Studio</span></a>
         <address class="address">
           <ul class="address__list">
             <li class="address__item">
@@ -284,7 +284,7 @@
       </div>
       <div class="footer__sections">
         <p class="footer__text">Присоединяйтесь</p>
-        <ul class="socials__list">
+        <ul class="socials">
         <li class="socials__item">
           <a class="socials__link socials__link--dark" href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
             <svg width="20" height="20">

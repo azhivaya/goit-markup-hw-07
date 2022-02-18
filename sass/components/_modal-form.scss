@@ -115,10 +115,11 @@
   border: none;
 }
 
-.checkbox__input:checked + .checkbox__text svg {
-  fill: var(--text-color-white);
+.checkbox__input:focus + .checkbox__text > span {
+  border: none;
+  outline: 1px solid var(--accent-color);
 }
 
-.checkbox__input:focus + .checkbox__span {
-  outline: 1px solid var(--accent-color);
+.checkbox__input:checked + .checkbox__text svg {
+  fill: var(--text-color-white);
 }
